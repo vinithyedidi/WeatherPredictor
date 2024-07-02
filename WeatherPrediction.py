@@ -1,3 +1,8 @@
+'''
+Made by Vinith Yedidi, July 2, 2024. 
+'''
+
+
 import numpy as np
 import pandas as pd
 import openmeteo_requests
@@ -15,7 +20,7 @@ https://mesonet.agron.iastate.edu/request/download.phtml
 We take weather data from Boston Logan International Airport every hour
 from 1943 until 2024 to make a regression model and use it to predict
 the weather for the next hour and up to 24 hours in the future. Then we 
-compare the model's predictions to other forecasts and real observations. 
+compare the model's predictions to NOAA Forecasts and real observations. 
 
 FEATURES:
     temp: in F
