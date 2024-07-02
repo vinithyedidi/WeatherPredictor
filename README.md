@@ -32,5 +32,5 @@ I learned a lot about machine learning methods and how they can be used to accur
 - Vinith Yedidi
 
 ## Sources
-https://otexts.com/fpp2/
+https://otexts.com/fpp2/<br>
 https://maths.ucd.ie/~plynch/Publications/pcam0159_proof_2.pdf
