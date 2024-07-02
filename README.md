@@ -1,5 +1,5 @@
 # WeatherPredictor
-A supervised machine learning model to forecast hourly temperatures for the next 24 hours based on past data.
+A supervised machine learning model to forecast hourly temperatures for the next 24 hours based on past data. This uses numpy, pandas, matplotlib, statsmodels, and sklearn.
 
 Made by Vinith Yedidi, July 2 2024
 
