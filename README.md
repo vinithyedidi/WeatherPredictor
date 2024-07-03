@@ -11,6 +11,8 @@ I applied basic machine learning techniques to the dataset in order to find a pa
 
 I then used a VAR model using the statsmodels library. VAR is a type of multivariate model that allows you to regress all the regressors along with the independent variable, allowing for multistep forcasting. In this case, we want to forecast all of the weather determineants hourly so as to forecast the hourly temp based on our previous forecasts. Naturally, it loses precision after some time, in this case about 12 hours, but considering how few determinants are in the model, it does fairly well.
 
+I also optimized the lag for the model, as it's an autoregressive model that correlates itself to its forecasts lagged behind a few values. To optimize this, I minimized the lag at p=25, with an AIC of 8.068. This step is important for the accuracy of the model, though minimizing the AIC makes you feel like a diabetic.
+
 I used hour as the exogenous variable (as it's predetermined what hour it's going to be), and all the other varibles as endogenous so that they can be forecasted on an hourly basis.
 
 (To see more about this, check this out: https://otexts.com/fpp2/VAR.html. I used this to learn about forecasting and VAR models).
